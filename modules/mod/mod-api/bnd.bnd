@@ -1,0 +1,10 @@
+Bundle-Name: mod-api
+Bundle-SymbolicName: com.liferay.mod.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.mod.exception,\
+	com.liferay.mod.model,\
+	com.liferay.mod.service,\
+	com.liferay.mod.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../mod-service/service.xml
